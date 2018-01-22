@@ -7,6 +7,7 @@ Create ScienceLogic instance:
 ```python
 
 import ScienceLogic
+
 sl = ScienceLogic('https://', 'account', 'password')
 
 ```
