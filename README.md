@@ -27,3 +27,7 @@ sl.disable_monitoring('device_id'))
 sl.enable_monitoring('device_id'))
 
 ```
+## Future update
+1. Device's discovery
+2. Device's group update
+3. Discom
