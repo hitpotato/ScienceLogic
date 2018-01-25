@@ -22,12 +22,13 @@ sl.get_id('device_name')
 Disable/Enable monitoring on devices:
 ```python
 
-sl.disable_monitoring('device_id'))
+sl.disable_monitoring('device_id')
 
-sl.enable_monitoring('device_id'))
+sl.enable_monitoring('device_id')
 
 ```
 ## Future update
 1. Device's discovery
 2. Device's group update
+
 
