@@ -74,10 +74,3 @@ class ScienceLogic:
             return response['result_set'][0]['URI']
         return None
 
-
-if __name__ == "__main__":
-    # print(getID('tus1grcappdin18'))
-    sl = ScienceLogic("https://", "em7", "em7")
-    print(sl.get_id('TUS1GRCAPPDIN18'))
-    # sl.enable_monitoring('CHG0091368', sl.get_id('TUS1GRCAPPDIN18'))
-    # enable_monitoring('1')
