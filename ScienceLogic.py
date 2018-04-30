@@ -34,7 +34,7 @@ class ScienceLogic:
         dev_url = self.uri + dev_id
         data = {'active': {'user-initiated-maintenance': '1'}}
         payload = json.dumps(data)
-        response = self.session.post(dev_url, data=payload, verify=self.verify)
+        response = self.session.put(dev_url, data=payload, verify=self.verify)
         if response.status_code != 200:
             return False
         else:
@@ -52,7 +52,7 @@ class ScienceLogic:
 
         data = {'active': {'user-initiated-maintenance': '0'}}
         payload = json.dumps(data)
-        response = self.session.post(dev_url, data=payload, verify=self.verify)
+        response = self.session.put(dev_url, data=payload, verify=self.verify)
         if response.status_code != 200:
             return False
         else:
